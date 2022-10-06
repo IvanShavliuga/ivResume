@@ -56,7 +56,7 @@ export default {
     };
   },
   created() {
-    this.$store.dispatch("initData");
+    // this.$store.dispatch("initData");
     this.profile = this.$store.getters.profile;
   },
 };
