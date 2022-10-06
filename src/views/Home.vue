@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header />
-    <main><Nav /></main>
+    <main><Nav /><Articles /></main>
     <Footer />
   </div>
 </template>
@@ -11,6 +11,7 @@
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import Nav from "@/components/Nav.vue";
+import Articles from "@/components/Articles.vue";
 
 export default {
   name: "Home",
@@ -18,6 +19,7 @@ export default {
     Header,
     Footer,
     Nav,
+    Articles,
   },
   created() {
     this.$store.dispatch("initData");

@@ -10,8 +10,7 @@
           </p>
           <p>I make site layout to order.</p>
           <p>
-            <a :href="profile.email" rel="noopener">
-              {{ profile.email }}</a>
+            <a :href="profile.email" rel="noopener"> {{ profile.email }}</a>
           </p>
           <p><router-link to="/" rel="noopener"> Home page</router-link></p>
           <p><router-link to="/List" rel="noopener"> My posts</router-link></p>
